@@ -4,10 +4,12 @@ import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.hexagonal.hexagonal_app.application.service.product.IProductservice;
 import com.hexagonal.hexagonal_app.domain.entities.Product;
 
+@Service
 public class ProductAdapter implements IProductservice {
 
     @Autowired
