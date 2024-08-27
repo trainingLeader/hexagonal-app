@@ -21,13 +21,6 @@ public class Product {
     private int stockmax;
     public Product() {
     }
-    public Product(String name, double price, int stock, int stockmin, int stockmax) {
-        this.name = name;
-        this.price = price;
-        this.stock = stock;
-        this.stockmin = stockmin;
-        this.stockmax = stockmax;
-    }
     public Long getId() {
         return id;
     }
