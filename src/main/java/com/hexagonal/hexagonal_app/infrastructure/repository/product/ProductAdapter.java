@@ -19,6 +19,7 @@ public class ProductAdapter implements IProductservice {
     @Override
     public Optional<Product> findById(Long id) {
         return productrepository.findById(id);
+        
     }
 
     @Override
